@@ -1,0 +1,42 @@
+img {
+    position: relative;
+    width: 20%;
+}
+
+a img {
+    border: 0;
+    width: 88px;
+    height: 31px
+}
+
+/* a:hover, a:active, a:focus { */
+
+tr img {
+    width: 250px;
+}
+
+#root {
+    padding: 8px;
+    background-color: #595647;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+table {
+    width: 80%;
+}
+
+h1, h2, h3, a {
+    color: #A1C3F2;
+}
+
+span {
+    color: #EFE790;
+}
+
+p , li, caption {
+    color: white;
+}
+
+caption {
+    margin: 20px;
+}
