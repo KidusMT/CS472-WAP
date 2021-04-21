@@ -3,6 +3,11 @@ img {
     width: 20%;
 }
 
+.profile-pic {
+    position: relative;
+    width: 10%;
+}
+
 a img {
     border: 0;
     width: 88px;
@@ -25,8 +30,27 @@ table {
     width: 80%;
 }
 
+.profile-container {
+    display: flex;
+}
+ 
+.profile-description {
+    padding-left: 40px;
+    display: grid;
+    align-items: center;
+}
+
+.circular-border {
+    border-radius: 50%;
+}
+
 h1, h2, h3, a {
     color: #A1C3F2;
+}
+
+li > a {
+    text-decoration: dashed;
+    color: #2C7EEA;
 }
 
 span {
@@ -37,6 +61,11 @@ p , li, caption {
     color: white;
 }
 
-caption {
-    margin: 20px;
+.special-section {
+    margin-top: 60px;
+}
+
+.tg-channel {
+    font-size: small;
+    font-style: italic;
 }
