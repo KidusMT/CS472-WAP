@@ -6,6 +6,7 @@ img {
 .profile-pic {
     position: relative;
     width: 10%;
+    border-radius: 50%;
 }
 
 a img {
@@ -38,10 +39,6 @@ table {
     padding-left: 40px;
     display: grid;
     align-items: center;
-}
-
-.circular-border {
-    border-radius: 50%;
 }
 
 h1, h2, h3, a {
