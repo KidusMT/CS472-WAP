@@ -3,7 +3,7 @@ img {
     width: 20%;
 }
 
-.profile-pic {
+#profile-pic {
     position: relative;
     width: 10%;
     border-radius: 50%;
