@@ -10,7 +10,7 @@
     - Added CSS Validator
     - Added HTML5 Validator
 
-![image](https://user-images.githubusercontent.com/18373774/115471179-2b4a0080-a1fd-11eb-9296-e8aca92cbf08.png)
+![image](https://user-images.githubusercontent.com/18373774/115733549-9e16c100-a34e-11eb-82e0-c0301aca3bd6.png)
 
 
  - [Lab 3: ](https://kidusmt.github.io/WAP/Lab3/index_css_zen.html) 
