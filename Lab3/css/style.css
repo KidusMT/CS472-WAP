@@ -213,6 +213,16 @@ div.participation p, div.benefits p {
 
 /* shared sidebar styling */
 
+h4.resources, h4.select {
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-top: 0;
+    color: #607476;
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    text-transform: uppercase;
+}
 .design-selection ul, .zen-resources ul {
     margin: 0;
 }
@@ -353,7 +363,6 @@ div.participation p, div.benefits p {
 
 .zen-resources {
     overflow: hidden;
-    background-color: rgba(138, 188, 159, 0.5);
 }
 
 .zen-resources li {
@@ -413,6 +422,9 @@ div.participation p, div.benefits p {
 /* main footer */
 
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     clear: both;
     padding: 3em 10%;
     color: #fff;
@@ -421,13 +433,11 @@ footer {
 }
 
 footer a {
-    display: inline-block;
     overflow: hidden;
     width: 40px;
     height: 40px;
     padding: 40px 0 0 0;
     margin: 0 0.5em;
-    position: relative;
     color: rgba(255, 255, 255, 0.5);
     -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
     -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
@@ -436,4 +446,9 @@ footer a {
 
 footer a:visited {
     color: rgba(255, 255, 255, 0.2);
+}
+
+a>img{
+    width:40px;
+    height: 40px;
 }
