@@ -6,7 +6,7 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 80px auto 80px;
     grid-template-areas: 
     "header header header" 
     "main main main" 
@@ -30,11 +30,49 @@ body{
 }
 
 .main {
-    padding: 20px;
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container {
+    flex-grow: 1;
+}
+
+.right-container {
+    flex-grow: 1;
 }
 
 label > span {
     color: red;
+}
+
+table {
+    border-spacing:0 15px;
+    width: 100%;
+    margin: 0 50px;
+}
+
+tr {
+    padding:5px;
+}
+
+#address {
+    height: 100px;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > input {
+    background-color: #7AA897;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 footer {
@@ -43,4 +81,5 @@ footer {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    align-items: center
 }

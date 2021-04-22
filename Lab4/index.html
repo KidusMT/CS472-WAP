@@ -21,36 +21,123 @@
                 </header>
             </div>
             <div class="grid-item grid-item2 main">
-                <div>
-                    <h5>Register now while seats are available!</h5>
+                <div class="right-container">
+                    <p><a href="#">Register now while seats are available!</a></p>
                     <table>
                         <tr>
                             <td><Label for="firstname">First Name <span>*</span></Label></td>
-                            <td><input id="firstname"/></td>
+                            <td><input id="firstname" /></td>
                         </tr>
                         <tr>
                             <td><Label for="lastname">Last Name <span>*</span></Label></td>
-                            <td><input id="lastname"/></td>
+                            <td><input id="lastname" /></td>
                         </tr>
                         <tr>
                             <td><Label for="company">Company Institution <span>*</span></Label></td>
-                            <td><input id="company"/></td>
+                            <td><input id="company" /></td>
                         </tr>
                         <tr>
                             <td><Label for="address">Address <span>*</span></Label></td>
-                            <td><input type="text" id="address"/></td>
+                            <td><input type="text" id="address" /></td>
+                        </tr>
+                        <tr>
+                            <td><Label for="country">Country</Label></td>
+                            <td><select id="country">
+                                    <option>Afghanistan</option>
+                                    <option>Albania</option>
+                                    <option>Cabo Verde</option>
+                                    <option>Denmark</option>
+                                    <option>Ethiopia</option>
+                                    <option>Djibouti</option>
+                                    <option>Cameroon</option>
+                                    <option>United States</option>
+                                    <option>United Kingdom</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><Label for="state">State/Province/Region</Label></td>
+                            <td><select id="state">
+                                    <option>Alabama</option>
+                                    <option>Maine</option>
+                                    <option>Alaska</option>
+                                    <option>Maryland</option>
+                                    <option>Massachusetts</option>
+                                    <option>Rhode Island</option>
+                                    <option>Pennsylvania</option>
+                                    <option>Arizona</option>
+                                    <option>Alabama</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><Label for="city">City</Label></td>
+                            <td><input type="text" id="city" /></td>
+                        </tr>
+                        <tr>
+                            <td><Label for="email">Email <span>*</span></Label></td>
+                            <td><input type="text" id="email" /></td>
+                        </tr>
+                        <tr>
+                            <td><Label for="phone">Phone Number <span>*</span></Label></td>
+                            <td><input type="text" id="phone" /></td>
                         </tr>
                     </table>
                 </div>
-                <div>
-                    
+                <div class="left-container">
+                    <p><a href="#">Lunch</a></p>
+                    <table>
+                        <tr>
+                            <td><Label for="meal">Meal Preference</Label></td>
+                            <td><select id="meal">
+                                    <option>Rice</option>
+                                    <option>Burger</option>
+                                    <option>Salad</option>
+                                    <option>Taco</option>
+                                    <option>Injera</option>
+                                    <option>Cake</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <p><a href="#">Payment Detail</a></p>
+                    <table>
+                        <tr>
+                            <td>Payment mode</Label></td>
+                            <td>
+                                <div class="payment">
+                                    <Label for="cash">
+                                        <input id="cash" type="checkbox">Cash
+                                    </Label>
+                                    <Label for="cheque">
+                                        <input id="cheque" type="checkbox">Cheque
+                                    </Label>
+                                    <Label for="draft">
+                                        <input id="draft" type="checkbox">Demand Draft
+                                    </Label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><Label for="cheque_no">DD/Cheque No.</Label></td>
+                            <td><input id="cheque_no" /></td>
+                        </tr>
+                        <tr>
+                            <td><Label for="bank">Drawn on (Bank Name)</Label></td>
+                            <td><input id="bank" /></td>
+                        </tr>
+                        <tr>
+                            <td><Label for="payable">Payable at</Label></td>
+                            <td><input id="payable" /></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
             <div class="grid-item grid-item3">
                 <footer>
-                    <input type="submit" name="Submit"/>
+                    <input type="submit" name="Submit" />
                     <input type="reset" name="Reset" />
-                </footer>                
+                </footer>
             </div>
         </div>
     </form>
