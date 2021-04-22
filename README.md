@@ -15,6 +15,9 @@
 
  - [Lab 3: ](https://kidusmt.github.io/WAP/Lab3/index_css_zen.html) 
     - Added CSS Zen Redesign Page
+      - Using Grid
+      - Using flex
+      - And other new css features
     - Updated CSS Validator to my page
     - Updated HTML5 Validator to my page
 
