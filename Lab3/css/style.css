@@ -434,51 +434,6 @@ footer a {
     transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
 }
 
-footer a:hover, footer a:focus {
-    color: rgba(255, 255, 255, 0.3);
-    text-decoration: none;
-}
-
 footer a:visited {
     color: rgba(255, 255, 255, 0.2);
-}
-
-footer a.zen-validate-html::before {
-    content: "5";
-}
-
-footer a.zen-validate-html:hover::before, footer a.zen-validate-html:focus::before {
-    content: "%";
-}
-
-footer a.zen-validate-css::before {
-    content: "3";
-}
-
-footer a.zen-validate-css:hover::before, footer a.zen-validate-css:focus::before {
-    content: "#";
-}
-
-footer a.zen-license::before {
-    content: "c";
-}
-
-footer a.zen-license:hover::before, footer a.zen-license:focus::before {
-    content: "C";
-}
-
-footer a.zen-accessibility::before {
-    content: "a";
-}
-
-footer a.zen-accessibility:hover::before, footer a.zen-accessibility:focus::before {
-    content: "A";
-}
-
-footer a.zen-github::before {
-    content: "g";
-}
-
-footer a.zen-github:hover::before, footer a.zen-github:focus::before {
-    content: "G";
 }
