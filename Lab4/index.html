@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <form id="test" action="#">
+    <form action="#">
         <div class="grid-container">
             <div class="grid-item grid-item1">
                 <header>
@@ -28,19 +28,19 @@
                     <table>
                         <tr>
                             <td><Label for="firstname">First Name <span>*</span></Label></td>
-                            <td><input required id="firstname" /></td>
+                            <td><input type="text" required id="firstname" name="firstname" /></td>
                         </tr>
                         <tr>
                             <td><Label for="lastname">Last Name <span>*</span></Label></td>
-                            <td><input required id="lastname" /></td>
+                            <td><input type="text" required id="lastname" name="lastname" /></td>
                         </tr>
                         <tr>
                             <td><Label for="company">Company Institution <span>*</span></Label></td>
-                            <td><input required id="company" /></td>
+                            <td><input type="text" required id="company" name="company" /></td>
                         </tr>
                         <tr>
                             <td><Label for="address">Address <span>*</span></Label></td>
-                            <td><textarea required type="text" id="address" ></textarea></td>
+                            <td><textarea required type="text" id="address" name="address" ></textarea></td>
                         </tr>
                         <tr>
                             <td><Label for="country">Country</Label></td>
@@ -76,15 +76,15 @@
                         </tr>
                         <tr>
                             <td><Label for="city">City</Label></td>
-                            <td><input type="text" id="city" /></td>
+                            <td><input type="text" id="city" name="city" /></td>
                         </tr>
                         <tr>
                             <td><Label for="email">Email <span>*</span></Label></td>
-                            <td><input required type="text" id="email" pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,3}" /></td>
+                            <td><input required type="text" id="email" name="email" pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,3}" /></td>
                         </tr>
                         <tr>
                             <td><Label for="phone">Phone Number <span>*</span></Label></td>
-                            <td><input required type="text" id="phone" pattern="\d{10,13}"/></td>
+                            <td><input required type="text" id="phone" name="phone" pattern="\d{10,13}"/></td>
                         </tr>
                     </table>
                 </div>
@@ -111,28 +111,28 @@
                             <td>
                                 <div class="payment">
                                     <Label class="check-label" for="cash">
-                                        <input id="cash" type="checkbox">Cash
+                                        <input id="cash" type="checkbox" name="cash">Cash
                                     </Label>
                                     <Label class="check-label" for="cheque">
-                                        <input id="cheque" type="checkbox">Cheque
+                                        <input id="cheque" type="checkbox" name="cheque">Cheque
                                     </Label>
                                     <Label class="check-label" for="draft">
-                                        <input id="draft" type="checkbox">Demand Draft
+                                        <input id="draft" type="checkbox" name="draft">Demand Draft
                                     </Label>
                                 </div>
                             </td>
                         </tr>
                         <tr>
                             <td><Label for="cheque_no">DD/Cheque No.</Label></td>
-                            <td><input id="cheque_no" /></td>
+                            <td><input id="cheque_no" type="text" name="cheque_no" /></td>
                         </tr>
                         <tr>
                             <td><Label for="bank">Drawn on (Bank Name)</Label></td>
-                            <td><input id="bank" /></td>
+                            <td><input id="bank" type="text" name="bank"/></td>
                         </tr>
                         <tr>
                             <td><Label for="payable">Payable at</Label></td>
-                            <td><input id="payable" /></td>
+                            <td><input id="payable" name="payable" type="text" /></td>
                         </tr>
                     </table>
                 </div>
