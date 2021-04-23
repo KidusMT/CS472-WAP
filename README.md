@@ -26,7 +26,7 @@
 
 ![image](https://user-images.githubusercontent.com/18373774/115733145-3c565700-a34e-11eb-8c01-43e4a6a4a307.png)
 
-- [Lab 3: ](https://kidusmt.github.io/WAP/Lab3/index_css_zen.html) 
+- [Lab 4: ](https://kidusmt.github.io/WAP/Lab4/index.html) 
     - Created Registration form for workshop
     - Handle Validation
     - Used `flex` and `grid` for layout
