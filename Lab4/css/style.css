@@ -25,8 +25,12 @@ body{
 }
 
 .grid-item3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
     grid-area: footer;
-    padding: 0 20px;
+    padding: 0;
     background-color: #E3E3E3;
 }
 
@@ -95,6 +99,8 @@ input[type="checkbox"]{
 
 #address {
     height: 100px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .payment {
@@ -106,6 +112,7 @@ footer > input {
     background-color: #7AA897;
     color: white;
     font-weight: 800;
+    border: none;
     width: 100px;
     padding: 5px 10px;
     margin-top: 10px;
