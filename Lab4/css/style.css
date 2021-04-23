@@ -83,8 +83,13 @@ td select {
     width: 100%;
 }
 
+.check-label {
+    font-size: small;
+    font-weight: 400;
+}
+
 input[type="checkbox"]{
-    margin: 0 8px 10px 10px;    
+    margin: 0 8px 10px 0;    
     width: fit-content;
 }
 
