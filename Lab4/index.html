@@ -28,19 +28,19 @@
                     <table>
                         <tr>
                             <td><Label for="firstname">First Name <span>*</span></Label></td>
-                            <td><input id="firstname" /></td>
+                            <td><input required id="firstname" /></td>
                         </tr>
                         <tr>
                             <td><Label for="lastname">Last Name <span>*</span></Label></td>
-                            <td><input id="lastname" /></td>
+                            <td><input required id="lastname" /></td>
                         </tr>
                         <tr>
                             <td><Label for="company">Company Institution <span>*</span></Label></td>
-                            <td><input id="company" /></td>
+                            <td><input required id="company" /></td>
                         </tr>
                         <tr>
                             <td><Label for="address">Address <span>*</span></Label></td>
-                            <td><textarea type="text" id="address" ></textarea></td>
+                            <td><textarea required type="text" id="address" ></textarea></td>
                         </tr>
                         <tr>
                             <td><Label for="country">Country</Label></td>
@@ -80,11 +80,11 @@
                         </tr>
                         <tr>
                             <td><Label for="email">Email <span>*</span></Label></td>
-                            <td><input type="text" id="email" /></td>
+                            <td><input required type="text" id="email" pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,3}" /></td>
                         </tr>
                         <tr>
                             <td><Label for="phone">Phone Number <span>*</span></Label></td>
-                            <td><input type="text" id="phone" /></td>
+                            <td><input required type="text" id="phone" pattern="\d{10,13}"/></td>
                         </tr>
                     </table>
                 </div>
