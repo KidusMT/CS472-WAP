@@ -33,3 +33,20 @@
     
 ![image](https://user-images.githubusercontent.com/18373774/115816816-3056ad80-a3bf-11eb-8ea6-56441c2421a9.png)
 
+- [Lab 5: ](https://github.com/KidusMT/WAP/tree/master/Lab5) 
+    - [Solution to Question 1](https://github.com/KidusMT/WAP/blob/master/Lab5/Question1.js)
+    ![image](https://user-images.githubusercontent.com/18373774/115957550-bf9bb800-a4c8-11eb-8b61-2c7cfeb41f42.png)
+    
+    - [Solution to Question 2](https://github.com/KidusMT/WAP/blob/master/Lab5/Question2.js)
+    ![image](https://user-images.githubusercontent.com/18373774/115957562-cde9d400-a4c8-11eb-88b7-d77af794e869.png)
+
+    - [Solution to Question 3](https://github.com/KidusMT/WAP/blob/master/Lab5/Question3.js)
+    ![image](https://user-images.githubusercontent.com/18373774/115957571-e5c15800-a4c8-11eb-9832-29b57862c822.png)
+
+
+
+
+
+
+
+
