@@ -26,8 +26,15 @@ function Employee(first, last, bdate) {
   // Find if there is any employee which age is greater than 20
   let result1 = arr.filter(e=>e.getAge()>20);
   console.log(result1);
+  // =============> Console Output:
+  //   (3) [Employee, Employee, Employee]
+  //         0: Employee {firstName: "Kidus", lastName: "Tekeste", birthdate: Thu Feb 15 1996 00:00:00 GMT-0600 (Central Standard Time), getFullName: ƒ, getAge: ƒ}
+  //         1: Employee {firstName: "John", lastName: "Doe", birthdate: Mon May 15 2000 00:00:00 GMT-0500 (Central Daylight Time), getFullName: ƒ, getAge: ƒ}
+  //         2: Employee {firstName: "Daniel", lastName: "Simpson", birthdate: Thu Mar 20 1997 00:00:00 GMT-0600 (Central Standard Time), getFullName: ƒ, getAge: ƒ}length: 3__proto__: Array(0)
 
   
   // Return a String array which contains the full name of employee and born after 2000
   let result2 = arr.filter(e=>e.birthdate.getFullYear()>2000).map(e=>e.getFullName());
   console.log(result2);
+  // =============> Console Output:
+  //        ["Mark Johnson"]
