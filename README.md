@@ -44,7 +44,7 @@
    ![image](https://user-images.githubusercontent.com/18373774/115957571-e5c15800-a4c8-11eb-9832-29b57862c822.png)
 
 ## [Lab 6: ](https://github.com/KidusMT/WAP/tree/master/Lab6) 
-   - [Solution to Question 1](https://github.com/KidusMT/WAP/blob/master/Lab6/Question1.js)
+   - [Solution to Question 1](https://github.com/KidusMT/WAP/blob/master/Lab6/Question1.md)
     
    - [Solution to Question 2](https://github.com/KidusMT/WAP/blob/master/Lab6/Question2.js)
        - options1:
