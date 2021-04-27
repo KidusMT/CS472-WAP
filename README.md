@@ -51,7 +51,7 @@
     ![image](https://user-images.githubusercontent.com/18373774/116237138-77c59c80-a725-11eb-8c1b-693b07f1796d.png)
     
     option2:
-    ![image](https://user-images.githubusercontent.com/18373774/116257543-bf562380-a739-11eb-9e0e-17f067255f33.png)
+    ![image](https://user-images.githubusercontent.com/18373774/116257721-e7458700-a739-11eb-9cec-5dea8e54cf41.png)
 
 
     - [Solution to Question 3](https://github.com/KidusMT/WAP/blob/master/Lab6/Question3.js)
