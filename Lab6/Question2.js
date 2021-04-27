@@ -5,7 +5,7 @@
  * @param {*} from - starting number
  * @param {*} to - ending number
  */
-function printNumbers(from , to){
+function printNumbers1(from , to){
     for(let i=from; i<=to; i++){
         setTimeout((x)=> console.log(x), (i+1)*1000, i);
     }
@@ -19,7 +19,7 @@ function printNumbers(from , to){
  * @param {*} from - starting number
  * @param {*} to - ending number
  */
-function printNumbers(from , to){
+function printNumbers2(from , to){
     var id = setInterval(function(){
       if(from <= to){
           console.log(from);
