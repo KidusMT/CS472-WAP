@@ -58,6 +58,8 @@
 
 
    - [Solution to Question 3](https://github.com/KidusMT/WAP/blob/master/Lab6/Question3.js)
+   ![image](https://user-images.githubusercontent.com/18373774/116258950-01cc3000-a73b-11eb-926d-bf92bf371aa5.png)
+
 
 
 
