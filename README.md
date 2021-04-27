@@ -47,10 +47,14 @@
     - [Solution to Question 1](https://github.com/KidusMT/WAP/blob/master/Lab6/Question1.js)
     
     - [Solution to Question 2](https://github.com/KidusMT/WAP/blob/master/Lab6/Question2.js)
+    
     options1:
+    
     ![image](https://user-images.githubusercontent.com/18373774/116237138-77c59c80-a725-11eb-8c1b-693b07f1796d.png)
     
+    
     option2:
+    
     ![image](https://user-images.githubusercontent.com/18373774/116257721-e7458700-a739-11eb-9cec-5dea8e54cf41.png)
 
 
