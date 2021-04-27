@@ -7,7 +7,7 @@ for(let j = 0; j < 100000000; j++){// tested it with also 2 x 100000000 and 5 x 
 }
 
 // When will the scheduled function run? 
-// My Answer: "After the loop"
+// ==> My Answer: "After the loop"
 
 // What will the alert going to show? 
-// My Answer: 100000000
+// ==> My Answer: 100000000
