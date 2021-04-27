@@ -9,5 +9,7 @@
 - makeArmy Lexical Environment: Creation Phase
 ![image](https://user-images.githubusercontent.com/18373774/116282430-5ded7f00-a750-11eb-967c-9d3ddff970c0.png)
 
-- makeArmy Lexical Environment: Execution Phase
+- while loop Lexical Environment: Creation Phase
+![image](https://user-images.githubusercontent.com/18373774/116283705-cf79fd00-a751-11eb-9379-eca2fdc8c764.png)
+
 
