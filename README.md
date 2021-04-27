@@ -43,8 +43,13 @@
     - [Solution to Question 3](https://github.com/KidusMT/WAP/blob/master/Lab5/Question3.js)
     ![image](https://user-images.githubusercontent.com/18373774/115957571-e5c15800-a4c8-11eb-9832-29b57862c822.png)
 
+- [Lab 6: ](https://github.com/KidusMT/WAP/tree/master/Lab6) 
+    - [Solution to Question 1](https://github.com/KidusMT/WAP/blob/master/Lab6/Question1.js)
+    
+    - [Solution to Question 2](https://github.com/KidusMT/WAP/blob/master/Lab6/Question2.js)
+    ![image](https://user-images.githubusercontent.com/18373774/116237138-77c59c80-a725-11eb-8c1b-693b07f1796d.png)
 
-
+    - [Solution to Question 3](https://github.com/KidusMT/WAP/blob/master/Lab6/Question3.js)
 
 
 
