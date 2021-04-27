@@ -12,4 +12,6 @@
 - while loop Lexical Environment: Creation Phase
 ![image](https://user-images.githubusercontent.com/18373774/116283705-cf79fd00-a751-11eb-9379-eca2fdc8c764.png)
 
+- What will army[0] alert? : It will alert nothing since its not a method call.
 
+- How to fix? : by calling like this `army[0]();`
