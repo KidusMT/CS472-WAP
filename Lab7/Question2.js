@@ -1,9 +1,10 @@
+  
 
 
 /**
  * Correct Answer: Using "bind"
  */
-let group = {
+ let group = {
     title: "Our Group",
     students: ["John", "Pete", "Alice"],
 
