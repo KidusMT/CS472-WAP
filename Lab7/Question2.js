@@ -15,9 +15,8 @@ group.showList();
 
 
 
-
 /**
- * ==================================Below is for self study=======================================
+ * =========================== Below is for self study ==========================
  * Options 1: Using only Lambda Expression
  * 
  * change the below code
@@ -39,6 +38,7 @@ group.showList();
 
 
 /**
+ * ===============================================================================
  * Options 2
  * Using "self pattern"
  */
@@ -68,6 +68,7 @@ let group = {
 group.showList();
 
 /**
+ * ===============================================================================
  * Optional 3 With "bind" and lambda expression
  */
  let group = {
@@ -82,6 +83,7 @@ group.showList();
 group.showList();
 
 /**
+ * ===============================================================================
  * Optional 4 With "call" and lambda expression
  */
  let group = {
@@ -96,6 +98,7 @@ group.showList();
 group.showList();
 
 /**
+ * ===============================================================================
  * Optional 5 With "apply" and lambda expression
  */
  let group = {
