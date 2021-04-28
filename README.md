@@ -69,7 +69,7 @@
    - [Solution to Question 2](https://github.com/KidusMT/WAP/blob/master/Lab7/Question2.js)
    ![image](https://user-images.githubusercontent.com/18373774/116480235-92436700-a846-11eb-8894-9be697e2221f.png)
    
-   Optional Solutions:
+   - Optional Solutions:
    ![image](https://user-images.githubusercontent.com/18373774/116480290-ac7d4500-a846-11eb-870e-609cf8993d29.png)
 
 
