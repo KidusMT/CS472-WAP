@@ -13,7 +13,7 @@ class LinkedList {
 
 LinkedList.prototype.add = function (data) {
     let newNode = new Node(data);
-    
+
     if (!this.head) {
         this.head = newNode;
         return this.head;
@@ -29,18 +29,39 @@ LinkedList.prototype.add = function (data) {
     return this.head;
 }
 
-LinkedList.prototype.remove = function (index) {
+LinkedList.prototype.getAt = function(index){
+    let counter = 0;
+    let node = this.head;
+    while (node) {
+        if (counter === index) {
+           return node;
+        }
+        counter++;
+        node = node.next;
+    }
+    return null;
+}
+
+LinkedList.prototype.remove = function (value) {
     if (!this.head) {
         this.head = new Node(data);
         return;
     }
 
-    if (index === 0) {
-        this.head = this.head.next;
-        return;
+    let counter = 0;
+    let node = this.head;
+    while (node) {
+        if (node.data === value) {
+            // console.log("===>node: " + node.data+ " ==> val: "+value);
+            break;
+        }
+        counter++;
+        node = node.next;
     }
 
-    const previous = this.getAt(index - 1);
+    const previous = this.getAt(counter-1);
+
+    // console.log("===>previous " + previous.data);
 
     if (!previous || !previous.next) {
         return;
@@ -62,3 +83,15 @@ LinkedList.prototype.print = function () {
     }
     return console.log(items);
 }
+
+
+/**
+ * Below are the Test cases
+ */
+ let linkedlist = new LinkedList();
+ linkedlist.add(1);
+ linkedlist.add(2);
+ linkedlist.add(3);
+ linkedlist.print(); //Expected Result: LinkedList{1,2,3};
+ linkedlist.remove(2);
+ linkedlist.print(); //Expected Result: LinkedList{1,3};
