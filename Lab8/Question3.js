@@ -4,10 +4,10 @@
  * It'll sort all elements in the array in ascending order.
  */
 
- function Student(firstName, lastName, grades){
+ function Student(firstName, lastName, grades = []){
     this.firstName = firstName,
     this.lastName = lastName,
-    this.grades = [],
+    this.grades = grades,
     this.inputNewGrade = function (newGrade) {
         this.grades.push(newGrade);
     },
