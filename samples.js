@@ -1,16 +1,18 @@
 // native prototype inheritance - String substring
+let str = "kidus";
 String.prototype.mySubstring = function (str, end = this.length) {
     let arr = [...this];
     let len = arr.length;
     let subStr = "";
     if (end <= len) {
         for (let i = str; i < end; i++) {
-            console.log(arr[i]);
+            subStr +=arr[i];
         }
     }
+    return subStr;
 }
 
-str.mySubstring(1);
+console.log(str.mySubstring(1));
 
 
 Array.prototype.mysort = function () {
