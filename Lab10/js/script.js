@@ -2,7 +2,7 @@ var wallHit = false;
 var started = false;
 
 var loseFunc = () => {
-    if (started){
+    if (started) {
         $(".boundary").removeClass("youWin");
         $(".boundary").addClass("youlose");
         $("h2").text("Sorry you lost :[");
@@ -14,7 +14,7 @@ var loseFunc = () => {
 $(document).ready(() => {
     $("#congratzImg").hide();
 
-    $("#start").click((e) => { 
+    $("#start").click((e) => {
         console.log("started");
         started = true;
         wallHit = false;
@@ -24,7 +24,7 @@ $(document).ready(() => {
         $("#congratzImg").hide();
     });
 
-    $("#maze").mouseleave(() => { 
+    $("#maze").mouseleave(() => {
         loseFunc();
     });
 
@@ -33,7 +33,7 @@ $(document).ready(() => {
     });
 
     $("#end").mouseover(() => {
-        if (started && !wallHit){
+        if (started && !wallHit) {
             $("h2").text("You win :]");
             $(".boundary").addClass("youWin");
             started = false;
