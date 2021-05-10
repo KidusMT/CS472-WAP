@@ -73,16 +73,16 @@
    ![image](https://user-images.githubusercontent.com/18373774/116480290-ac7d4500-a846-11eb-870e-609cf8993d29.png)
 
 
-## [Lab 11 - Servlet Lesson]
+## Lab 11 - Servlet Lesson
    - [Solution for Q1:](https://github.com/KidusMT/SimpleCalculator1)
    - [Solution for Q2:](https://github.com/KidusMT/SimpleCalculator2)
 
-## [Lab 12 - Servlet Quiz Lab]
+## Lab 12 - Servlet Quiz Lab
    - [Solution for Lab12:](https://github.com/KidusMT/Lab12-ServletQuizLab.git)
 
-## [Lab 13 - JSP Quiz Lab]
+## Lab 13 - JSP Quiz Lab
    - [Solution for Lab 13:](https://github.com/KidusMT/Lab13-JSPQuizLab)
 
-## [Lab 14 JSP Custom tags lab]
+## Lab 14 JSP Custom tags lab
    - [Solution for Exercise 1:](https://github.com/KidusMT/Lab14JSPCustomtagsLab)
    - [Solution for Exercise 2:](https://github.com/KidusMT/Lab14JSPCustomtagsLabExercise2)
